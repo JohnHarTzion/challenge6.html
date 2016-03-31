@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<style>
+.img-rounding {
+	border-radius:50%;
+	overflow:hidden;
+	width:150px;
+	height:150px;
+	margin:auto;
+	border:1px; 
+	border-style: solid;
+	border-color: lightblue; 
+	border-width: 5px;
+}
+body {background-color:lightgrey;
+font-family: tahoma;
+}
+h1,h2,h3 {color:red;
+font-family:lucida;}
+a:link {color:green; background-color:transparent; text-decoration:none;}
+a:hover {color:red; background-color:transparent; text-decoration:none;}
+.align-left {
+	text-align: left;
+}
+.corners{background-color:white; text-align: center;  width: 500px; padding: 25px; border: 25px; margin: auto;  border-width: 200px;box-shadow: 0px 1px 2px  #888888 ;border-radius: 5px border-collapse: separate; border-radius: 5px; 
+ }
+ .table {
+ 	width:100%;
+ 	height:100%;
+ }
+ .table-writing {
+ 	font-family: verdana; font-size:12px;
+ }
+#sidebar {
+	float: right; margin:20px;
+}
+ 
+ #sidebar {
+ 	position:absolute;
+ 	top:0; bottom:0; left:0;
+ 	width:250px;
+ 	background: blue;
+ }
+.navbar {
+	position: fixed;
+	list-style-type: none;
+	margin:0;
+	padding: 10px;
+	width: 200px;
+	background-color: #f1f1f1;
+	height:100%;
+}
+.navbar-a {
+	display: block;
+	color: #000;
+	padding: 18px 0 8px 16px;
+	text-decoration: none;
+}
+.navbar-a:hover{
+	background-color: #555;
+	color: white;
+}
+.container {
+	width: 100%;
+	float: center;
+	
+}
+
+#right {
+	float: right;
+	margin-top:150px;
+	margin-right: 300px;
+}
+
+#left {
+
+	float:left;
+	margin-top: 150px;
+	margin-left: 480px;
+	
+}
+
+#footer {
+	float:left;
+	
+	margin-left:480px;
+}
+</style>
+<body>
+
+<!--
+<ul class="navbar">
+<li class="navbar-a"> <a href="#home"> Home </a></li>
+<li class="navbar-a"> <a href="#links"> Links </a> </li>
+<li class="navbar-a"> <a href="#movies"> Movies </a> </li>
+</ul>
+-->
+
+<div class="container">
+
+<div id="left">
+<div class="corners">
+<div class="img-rounding">
+<img src="1.jpg" alt="john picture" style="width:200px; height:200px; "> </svg>
+</div>
+<h1>John Har-Tzion</h1>
+ <h2>Web Developer</h2>
+After recieveing a Bachlor's in Communications I decided to study web development.
+</div> 
+</div>
+</div>
+
+
+<div id="right">
+<div class="corners"><h2 id="movies"> My Favorite Movies </h2>
+
+
+<table class="table">
+<tbody>
+  <tr>
+  <th>
+    <img src="Challange 1/AHX.jpg" alt="American History X" style="width:200px; height:200px; width:200px">
+  </th> 
+  <th>
+  <h3> American History X </h3>
+  <p class="table-writing">a movie about a neo nazi who finds that his way of living is not what he thought it was.</p>
+</th>
+    </tr>
+ <tr>
+  <th>
+  <img src="Challange 1/TUS.jpg" alt="The Usual Suspects" style="width: 200px; height: 200px ; width:200px"> 
+</th>
+  <th>
+  <h3> The Usual Suspects </h3>
+  <p class="table-writing"> A movie where nothing is what it seems and everyone is fictionary </p>
+  </th>
+  </tr>
+  </tbody>
+  </table>
+  </div>
+  </div>
+ <div id="footer">
+<h2 id="links"></h2>
+<div class="corners"><ul>
+ 
+   <a href="http://www.facebook.com/JohnHarTzion">
+      <i class="fa fa-facebook"> </i><br> Facebook
+      </a>
+      
+   <br>
+   <a href="http://www.twitter.com/JohnHarTzion">
+   <i class="fa fa-twitter"></i><br>
+    Twitter</a> 
+   </ul>
+   </div>
+   </div>
+
+
+</div> <br>
+
+  
+</body>
+</html>
